@@ -1,6 +1,7 @@
 body{
     font-family: Arial;
     margin: 0px;
+    background-color:#4915F8
 }
 
 .section-1{
@@ -26,6 +27,7 @@ body{
 input[type='button'] {
     margin-top: 5px;
     padding: 8px 30px;
+    background-color: orange; 
 }
 
 a{
@@ -87,13 +89,14 @@ a:hover {
 .column {
     float: left;
     width: 50%;
+    content: "";
+    display: table;
+    clear:both;
+    color:;
     background-color:#4915F8;
-}
 
 .row::after{
     content: "";
     display: table;
     clear:both;
-
-
 }
