@@ -54,10 +54,12 @@ h4 {
 .text-box {
     font: size 42px;
     color:rgb(180, 176, 176);
+    align-items: center;
 }
 .text-box p {
     color:grey;
-    margin: 300px
+    margin: 300px;
+    align-items: center;
 
 }
 
@@ -86,8 +88,12 @@ h4 {
     color:azure;   
     margin: auto;
 }
+.container1{
+    display:flex;
+}
 
-.container{
+
+.container2{
     display: flex;
     justify-content: space-around;
     align-items: center;
